@@ -17,7 +17,7 @@ function Portfolio() {
     <div className="noscrollbar flex-col justify-around" style={{overflowY:"hidden",minHeight:"100vh"}}>
       <>
       <h1
-        className='text-center text-4xl font-bold'
+        className='text-center text-4xl font-bold mt-16'
         style={{ color: "#4a4a4a" }}>
         OUR WORKS 
       </h1>
