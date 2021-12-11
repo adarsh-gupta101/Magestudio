@@ -23,7 +23,7 @@ function Portfolio() {
       </h1>
       </>
       <>
-      <Slider {...settings} className="noscrollbar">
+      <Slider {...settings} className="noscrollbar mt-16">
           <div className="p-2">
           <img alt="nil" class="" src="https://cataas.com/cat/says/hello%20world!" />
 
