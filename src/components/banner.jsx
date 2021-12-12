@@ -15,19 +15,19 @@ function Banner() {
         className='flex justify-between absolute z-10 w-full'
         style={{ width: "100%" }}>
         <div>
-          <p className='text-2xl  p-2 text-white'>
-            Mages.<span className='text-green-300'>Studio</span>
+          <p className='text-2xl  p-2 ' style={{fontFamily:"poppins",color:"#44b2e5"}}>
+            Mages<span className='text-green-300'></span>
           </p>
         </div>
 
         <div className=' p-2 hidden lg:flex'>
           <a href='/'>
             {" "}
-            <p className='text-xl font-bold p-2 text-white'>Home </p>
+            <p className='text-xl font-bold p-2 text-white' style={{fontFamily:"poppins"}}>Home </p>
           </a>
           <a href='mailto:Hello@mages.studio'>
             {" "}
-            <p className='text-xl font-bold p-2 text-white'>Contact</p>
+            <p className='text-xl font-bold p-2 text-white' style={{fontFamily:"poppins"}}>Contact</p>
           </a>
         </div>
       </div>
@@ -49,16 +49,18 @@ function Banner() {
             backgroundRepeat: "no-repeat",
           }}
         />
-        <div className='top-40 p-4 md:px-16 absolute font-bold text-2xl md:text-6xl '>
-          <p className='text-white'>WE RISE BY </p>
-          <span style={{ color: "#40eca7" }}>LIFTING OTHERS</span>
+        <div className='top-40 p-4 md:px-16 absolute font-bold text-4xl md:text-6xl '>
+          <p className='text-white'>WE </p>
+          <span className='text-white'>RISE BY </span>
+          <p style={{ color: "#44b2e5" }}>LIFTING OTHERS</p>
           <span
-            className='text-2xl p-2 flex w-76 justify-center items-center mt-4 text-green-400 hover:bg-green-400 hover:text-white ease-in duration-300	'
+            className='text-2xl p-2 py-4 flex  justify-center items-center mt-4 text-green-400 hover:bg-blue-400 hover:text-white ease-in duration-300	'
             style={{
-              border: " 1px solid #40eca7 ",
-              width: "",
+              border: " 1px solid #44b2e5 ",
+              width: "fit-content",
+              color:"#44b2e5"
             }}>
-            <a href='Hello@mages.studio'>
+            <a href='#new'>
               {" "}
               <p className='mr-2'> REACH OUT TO US </p>
             </a>
@@ -72,7 +74,7 @@ function Banner() {
             </svg>{" "}
           </span>
         </div>
-        <p>hi</p>
+        {/* <p>hi</p> */}
         <svg
           fill='white'
           className='absolute '

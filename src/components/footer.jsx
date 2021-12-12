@@ -7,7 +7,7 @@ function footer() {
       style={{ minHeight: "fit-content" }}>
       <div>
         <p
-          className=' text-2xl md:text-4xl font-extrabold '
+          className=' text-2xl md:text-4xl font-extrabold text-center'
           style={{ color: "#4a4a4a" }}>
           READY TO TEAM UP ?
         </p>
@@ -21,11 +21,12 @@ function footer() {
         </p>
 
         <span className='flex my-4 md-mt-24  p-4 border-2 border-green-300  w-64 items-center group  hover:bg-green-300 hover:text-white ease-in-out duration-300 '>
-          <p
+          <a href="#new"><p
             className='mr-2 font-bold   text-green-300 group-hover:text-white'
             style={{ color: "" }}>
             REACH OUT TO US
           </p>
+          </a>
           <svg
             className='text-green-300 group-hover:text-white'
             viewBox='0 0 38.62 17.59'
@@ -40,7 +41,7 @@ function footer() {
 
       <div>
         <a href='https://wa.me/+916238023468'>
-          <p className='text-xl md:text-2xl text-center  hover:text-green-400 text-gray-400'>
+          <p className='text-xl md:text-2xl text-center m-2 md:m-0  hover:text-green-400 text-gray-400'>
             Click{" "}
             <span className='font-bold' style={{ color: "#40eca7" }}>
               here

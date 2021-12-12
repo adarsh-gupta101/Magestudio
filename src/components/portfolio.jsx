@@ -31,7 +31,6 @@ function Portfolio() {
           centerMode: false,
           fade: true,
           dots: true,
-
         },
       },
     ],
@@ -43,7 +42,7 @@ function Portfolio() {
       <>
         <h1
           className='text-center text-4xl font-bold mt-16'
-          style={{ color: "#4a4a4a" }}>
+          style={{ color: "#4a4a4a", fontWeight: 800 }}>
           OUR WORKS
         </h1>
       </>

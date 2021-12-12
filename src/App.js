@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import Testimonial from "./components/testimonial";
 import Dummyside from "./components/dummyside";
 import End from "./components/End";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Dummyside />
       <Testimonial />
+      <Contact/>
       <Footer />
       <End />
       {/* <About/>
