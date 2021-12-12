@@ -14,7 +14,7 @@ function Dummyside() {
           autoPlay
           loop
           muted
-          className='relative  h-full    w-full'
+          className='relative  h-screen    w-full'
           style={{
             backgroundImage: videobannner2,
             objectFit: "cover",
@@ -25,7 +25,7 @@ function Dummyside() {
         <svg
           fill='white'
           width='100%'
-          className=' absolute top-0'
+          className=' absolute top-0 '
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 1289 56.85'>
           <defs>
@@ -38,7 +38,7 @@ function Dummyside() {
         <svg
           fill='white'
           style={{ transform: "rotate(180deg)", top: "95%" }}
-          className='absolute  md:flex'
+          className='absolute  hidden md:flex'
           width='100%'
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 1289 56.85'>

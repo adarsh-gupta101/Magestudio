@@ -15,12 +15,20 @@ function Banner() {
         className='flex justify-between absolute z-10 w-full'
         style={{ width: "100%" }}>
         <div>
-          <p className='text-2xl  p-2 text-white'>Mages.<span className="text-green-300">Studio</span></p>
+          <p className='text-2xl  p-2 text-white'>
+            Mages.<span className='text-green-300'>Studio</span>
+          </p>
         </div>
 
         <div className=' p-2 hidden lg:flex'>
-         <a href="/">  <p className='text-xl font-bold p-2 text-white'>Home </p></a>
-         <a href="mailto:Hello@mages.studio"> <p className='text-xl font-bold p-2 text-white'>Contact</p></a>
+          <a href='/'>
+            {" "}
+            <p className='text-xl font-bold p-2 text-white'>Home </p>
+          </a>
+          <a href='mailto:Hello@mages.studio'>
+            {" "}
+            <p className='text-xl font-bold p-2 text-white'>Contact</p>
+          </a>
         </div>
       </div>
       <div className='absolute top-0 ' style={{ height: "100%" }}>
@@ -35,7 +43,10 @@ function Banner() {
             width: "100vw",
             opacity: 1,
             filter: "brightness(0.5)",
-            backgroundImage: videobannner,
+            borderBottomRightRadius: "7%",
+            borderBottomLeftRadius: "7%",
+            backgroundImage: `url(${videobannner})`,
+            backgroundRepeat: "no-repeat",
           }}
         />
         <div className='top-40 p-4 md:px-16 absolute font-bold text-2xl md:text-6xl '>
@@ -47,10 +58,10 @@ function Banner() {
               border: " 1px solid #40eca7 ",
               width: "",
             }}>
-             <a href="Hello@mages.studio">  <p className="mr-2">
-            {" "}
-            REACH OUT TO US{" "}
-            </p></a>
+            <a href='Hello@mages.studio'>
+              {" "}
+              <p className='mr-2'> REACH OUT TO US </p>
+            </a>
             <svg
               viewBox='0 0 38.62 17.59'
               xmlns='http://www.w3.org/2000/svg'
