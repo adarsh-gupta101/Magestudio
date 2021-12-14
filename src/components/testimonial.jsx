@@ -22,11 +22,11 @@ function Testimonial() {
           </svg>
         </div>
         <h1
-          className='text-center text-5xl font-bold'
+          className='text-center text-5xl font-bold xl:text-6xl'
           style={{ color: "#4a4a4a" }}>
           THANK YOU
         </h1>
-        <p className='text-center text-xl mt-2 p-1' style={{ color: "#b0b0b0" }}>
+        <p className='text-center text-xl mt-2 p-1 xl:text-2xl' style={{ color: "#b0b0b0" }}>
           {" "}
           " We make sure that you step out with successful brands with latest
           trends and conquer the world unique."

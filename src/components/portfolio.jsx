@@ -41,15 +41,24 @@ function Portfolio() {
       style={{ overflowY: "hidden", minHeight: "100vh" }}>
       <>
         <h1
-          className='text-center text-4xl font-bold mt-16'
+          className='text-center text-4xl font-bold mt-16 xl:text-5xl'
           style={{ color: "#4a4a4a", fontWeight: 800 }}>
           OUR WORKS
         </h1>
       </>
       <>
         <Slider {...settings} className='noscrollbar mt-16'>
-          <div className='p-2'>
-            <img src={Work1} alt='nil' />
+
+         { [Work1,Work2,Work3,Work4,Work5,Work6].map(works=>{
+            return(
+<div className='p-2 flex items-center justify-center   ' style={{display:"flex !important"}}>
+                              <img src={works} alt='nil'className=" w-76 h-76 rounded-2xl p-0 m-auto" style={{height:"250px",objectFit:"cover"}} />
+
+              </div>
+            )
+          })}
+          {/* <div className='p-2'>
+            <img src={Work1} alt='nil'className="bg-red-200" />
           </div>
           <div className='p-2'>
             <img src={Work2} alt='nil' />
@@ -65,7 +74,7 @@ function Portfolio() {
           </div>
           <div className='p-2'>
             <img src={Work6} alt='nil' />
-          </div>
+          </div> */}
         </Slider>
       </>
 

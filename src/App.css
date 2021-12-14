@@ -43,3 +43,18 @@
 .noscrollbar::-webkit-scrollbar {
   /* display: none; */
 }
+.reachout{
+
+ 
+  
+
+  background: linear-gradient(to right, #44b2e5 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  color:#44b2e5
+}
+.reachout:hover{
+  background-position: left bottom;
+  color: white;
+}

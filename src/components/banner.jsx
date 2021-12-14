@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../assets/we lift.mp4";
 import videobannner from "../assets/videobannner.jpg";
+import "../App.css"
 function Banner() {
   return (
     <div
@@ -15,19 +16,36 @@ function Banner() {
         className='flex justify-between absolute z-10 w-full'
         style={{ width: "100%" }}>
         <div>
-          <p className='text-2xl  p-2 ' style={{fontFamily:"poppins",color:"#44b2e5"}}>
+          <p
+            className='text-3xl p-4 md:p-8 md:px-12'
+            style={{ fontFamily: "poppins", color: "#44b2e5" ,fontWeight:700}}>
             Mages<span className='text-green-300'></span>
           </p>
         </div>
 
-        <div className=' p-2 hidden lg:flex'>
+        <div className=' p-8 px-12 hidden lg:flex group'>
           <a href='/'>
             {" "}
-            <p className='text-xl font-bold p-2 text-white' style={{fontFamily:"poppins"}}>Home </p>
+            <p
+              className='text-xl font-bold p-2 px-6 ease-in duration-100 text-white hover:text-blue-300'
+              style={{ fontFamily: "poppins" }}>
+              Home{" "}
+            </p>
           </a>
           <a href='mailto:Hello@mages.studio'>
             {" "}
-            <p className='text-xl font-bold p-2 text-white' style={{fontFamily:"poppins"}}>Contact</p>
+            <p
+              className='text-xl font-bold p-2 px-6 ease-in duration-100 text-white hover:text-blue-300'
+              style={{ fontFamily: "poppins" }}>
+              Contact
+            </p>
+          </a> <a href='https://medium.com'>
+            {" "}
+            <p
+              className='text-xl font-bold p-2 px-6 ease-in duration-100 text-white hover:text-blue-300'
+              style={{ fontFamily: "poppins" }}>
+              Blog
+            </p>
           </a>
         </div>
       </div>
@@ -50,19 +68,18 @@ function Banner() {
           }}
         />
         <div className='top-40 p-4 md:px-16 absolute font-bold text-4xl md:text-6xl '>
-          <p className='text-white'>WE </p>
-          <span className='text-white'>RISE BY </span>
-          <p style={{ color: "#44b2e5" }}>LIFTING OTHERS</p>
+          <p className='text-white' style={{fontFamily:"poppins"}}>WE </p>
+          <span className='text-white'  style={{fontFamily:"poppins"}}>RISE BY </span>
+          <p style={{ color: "#44b2e5" ,fontFamily:"poppins"}}>LIFTING OTHERS.</p>
           <span
-            className='text-2xl p-2 py-4 flex  justify-center items-center mt-4 text-green-400 hover:bg-blue-400 hover:text-white ease-in duration-300	'
+            className='reachout text-2xl p-2 py-4 flex  justify-center items-center mt-4 ease-in duration-300	'
             style={{
               border: " 1px solid #44b2e5 ",
               width: "fit-content",
-              color:"#44b2e5"
             }}>
             <a href='#new'>
               {" "}
-              <p className='mr-2'> REACH OUT TO US </p>
+              <p className='mr-2'  style={{fontFamily:"poppins"}}> REACH OUT TO US </p>
             </a>
             <svg
               viewBox='0 0 38.62 17.59'

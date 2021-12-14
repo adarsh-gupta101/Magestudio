@@ -8,7 +8,7 @@ function About() {
       style={{ minHeight: "100vh" }}
       className='flex flex-col justify-evenly items-center  relative'>
       <h1
-        className='text-center text-4xl font-bold mt-16 mb-16 text-green-300'
+        className='text-center text-4xl font-bold mt-16 mb-16 text-green-300 xl:text-5xl'  
         style={{ color: "#4a4a4a", fontWeight: 800 }}>
         WHAT WE DO{" "}
       </h1>
@@ -17,7 +17,7 @@ function About() {
         <div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className='p-4 m-2   mb-16 md:px-2 md:py-24 md:m-2 content-center shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-green-400 ease-in duration-200 hover:translate-x-4  md:w-1/3'>
+          className='p-4 m-2   mb-16 md:px-2 md:py-24 md:m-2 content-center shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200 hover:translate-x-4  md:w-1/3'>
           <video
             autoPlay
             muted
@@ -28,7 +28,7 @@ function About() {
             className='w-full h-1/2'
           />
           <p
-            className='font-bold text-2xl mt-3'
+            className='font-bold text-2xl mt-3 xl:text-4xl xl:text-center' 
             style={{ color: "#4a4a4a", fontWeight: 800, fontSize: "1.55em" }}>
             BRAND STRATEGY
           </p>
@@ -45,7 +45,7 @@ function About() {
             world with their ideas, creatives and products
           </p>
         </div>
-        <div className='p-4 m-2 md:px-2 md:py-24  md:m-2 shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-green-400 ease-in duration-200  md:w-1/3'>
+        <div className='p-4 m-2 md:px-2 md:py-24  md:m-2 shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200  md:w-1/3'>
           <video
             autoPlay
             muted
@@ -56,7 +56,7 @@ function About() {
             className='h-1/2 w-full'
           />
           <p
-            className='font-bold text-2xl mt-3'
+            className='font-bold text-2xl mt-3  xl:text-4xl xl:text-center'
             style={{ color: "#4a4a4a", fontWeight: 800, fontSize: "1.55em" }}>
             DESIGN SOLUTIONS
           </p>
