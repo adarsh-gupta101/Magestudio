@@ -8,20 +8,20 @@ function footer() {
       style={{ minHeight: "fit-content" }}>
       <div>
         <p
-          className=' text-2xl md:text-4xl font-extrabold text-center'
+          className=' text-2xl md:text-4xl lg:text-5xl  font-extrabold text-center'
           style={{ color: "#4a4a4a" }}>
-          READY TO TEAM UP ?
+          Like what you see?
         </p>
         <p
-          className='mt-8 text-xl text-center md:text-left'
+          className='mt-6 text-xl text-center md:text-left'
           style={{ color: "#B0b0b0" }}>
           {" "}
-          Find us on social,
-          <br /> connect with us through this form,
-          <br /> or write directly
+         Then drop us a note. Send us a brief
+          <br />Lets chat about how we can create
+          <br /> something unforgettable together
         </p>
 
-        <span className='reachout flex my-4 md-mt-24  p-4 border-2 border-blue-300  w-64 items-center group  hover:text-white ease-in-out duration-300 '>
+        <span className='reachout flex my-4 md-mt-24  p-4 border-2 border-blue-300  w-64 justify-center items-center group  hover:text-white ease-in-out duration-300 '>
           <a href='#new'>
             <p
               className='mr-2 font-bold   text-blue-500 group-hover:text-white'
@@ -40,6 +40,7 @@ function footer() {
           </svg>{" "}
         </span>
       </div>
+      {/* <div id="w-node-d3bfaa92-2268-19e7-7a7b-d1572f2b7894-34f1a05a" class="footer-txt-w"><h3 class="is--lc">Like what you see?</h3><div class="b1--left-text-w"><p class="b1 is--centred is--100">Then drop us a note. Send us a brief. <br/>Let’s chat about how we can create <br/>something unforgettable together.</p></div></div> */}
 
       <div>
         <a href='https://wa.me/+916238023468'>

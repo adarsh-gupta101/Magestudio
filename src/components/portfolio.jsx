@@ -58,7 +58,7 @@ function Portfolio() {
 
          { [Work1,Work2,Work3,Work4,Work5,Work6].map(works=>{
             return(
-<div className='p-2 flex items-center justify-center   ' style={{display:"flex !important"}}>
+<div className='p-2  flex items-center justify-center   ' style={{display:"flex !important"}}>
                               <img src={works} alt='nil'className=" w-76 h-76 rounded-2xl p-0 m-auto" style={{height:"250px",objectFit:"cover"}} />
 
               </div>
@@ -85,7 +85,7 @@ function Portfolio() {
         </Slider>
       </>
 
-      <div className="mailogo flex w-full items-center justify-around flex-wrap  mx-2">
+      <div className="mailogo flex w-full items-center justify-around flex-wrap  mx-2 pt-12 md:pt-0">
 
       <img alt="" src={logo1}       className="logoclass m-1  w-48     md:w-60 md:h-64"  style={{objectFit:"contain"}}/>
       <img alt="" src={logo2}      className="logoclass m-1 w-40   md:w-64 md:h-60"  style={{objectFit:"contain"}} />

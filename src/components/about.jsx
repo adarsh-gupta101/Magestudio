@@ -18,7 +18,7 @@ function About() {
         <div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className='p-4 m-2   mb-16 md:px-2 md:py-24 md:m-2 content-center shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200 hover:translate-x-4  md:w-1/3'>
+          className='p-4 m-2   mb-16 md:px-2 md:py-24 md:m-2 content-center shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200 hover:translate-x-4  md:w-5/12 lg:w-1/3'>
           <video
             autoPlay
             muted
@@ -29,7 +29,7 @@ function About() {
             className='w-full h-1/2'
           />
           <p
-            className='font-bold text-2xl mt-3 xl:text-4xl xl:text-center' 
+            className='font-bold text-2xl mt-3 xl:text-5xl xl:text-center xl:text-gray-500' 
             style={{ color: "#4a4a4a", fontWeight: 800, fontSize: "1.55em" }}>
             BRAND STRATEGY
           </p>
@@ -40,13 +40,13 @@ function About() {
               fontFamily: "poppins",
               fontWeight:400
             }}
-            className='p-2 text-xl'>
+            className='p-2 text-xl '>
             We are much more than a branding agency. Our team of professionals
             works with an oath to bring out their best, and make a mark in the
             world with their ideas, creatives and products
           </p>
         </div>
-        <div className='p-4 m-2 md:px-2 md:py-24  md:m-2 shadow-xl hover:shadow-2xl  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200  md:w-1/3'>
+        <div className='p-4 m-2 md:px-2 md:py-24  md:m-2 shadow-xl hover:shadow-2xl  justify-around  border-2 border-white md:border-gray-100 hover:border-blue-400 ease-in duration-200  md:w-5/12 lg:w-1/3'>
           <video
             autoPlay
             muted
