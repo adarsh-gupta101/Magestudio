@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../assets/2video.mp4";
+import video from "../assets/22video.mp4";
 import videobannner2 from "../assets/videobannner2.jpg";
 
 function Dummyside() {

@@ -1,6 +1,6 @@
 import React from "react";
-import video from "../assets/we lift.mp4";
-import videobannner from "../assets/videobannner.jpg";
+import video from "../assets/firstvideo.mp4";
+import videobannner from "../assets/bannernow1.jpg";
 import "../App.css"
 function Banner() {
   return (
@@ -17,7 +17,7 @@ function Banner() {
         style={{ width: "100%" }}>
         <div>
           <p
-            className='text-3xl p-4 md:p-8 md:px-12'
+            className='text-3xl p-4 md:p-8 md:px-16'
             style={{ fontFamily: "poppins", color: "#44b2e5" ,fontWeight:700}}>
             Mages<span className='text-green-300'></span>
           </p>

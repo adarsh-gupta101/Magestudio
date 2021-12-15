@@ -11,6 +11,13 @@ import Work4 from "../assets/Works4.jpg";
 import Work5 from "../assets/Works5.jpg";
 import Work6 from "../assets/Works6.jpg";
 
+import logo1 from "../assets/logo1.png";
+import logo2 from "../assets/logo2.svg";
+import logo3 from "../assets/logo3.png";
+// import logo4 from "../assets/logo4.png";
+import logo5 from "../assets/logo5.png";
+
+
 function Portfolio() {
   const settings = {
     dots: true,
@@ -77,6 +84,18 @@ function Portfolio() {
           </div> */}
         </Slider>
       </>
+
+      <div className="mailogo flex w-full items-center justify-around flex-wrap  mx-2">
+
+      <img alt="" src={logo1}       className="logoclass m-1  w-48     md:w-60 md:h-64"  style={{objectFit:"contain"}}/>
+      <img alt="" src={logo2}      className="logoclass m-1 w-40   md:w-64 md:h-60"  style={{objectFit:"contain"}} />
+     
+
+      <img alt="" src={logo3}      className="logoclass m-1 w-48 md:w-64 md:h-60" style={{objectFit:"contain"}} />
+    {/* //  <img alt="" src={logo4}      className="logoclass w-64 h-64" style={{objectFit:"contain"}} /> */}
+      <img alt="" src={logo5}      className="logoclass m-1 w-48  md:w-64 md:h-60" style={{objectFit:"contain"}} />
+
+      </div>
 
       {/* <Carousel>
                 <div>

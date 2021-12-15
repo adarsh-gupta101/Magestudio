@@ -8,9 +8,10 @@ function About() {
       style={{ minHeight: "100vh" }}
       className='flex flex-col justify-evenly items-center  relative'>
       <h1
-        className='text-center text-4xl font-bold mt-16 mb-16 text-green-300 xl:text-5xl'  
-        style={{ color: "#4a4a4a", fontWeight: 800 }}>
-        WHAT WE DO{" "}
+        className='text-center text-4xl font-bold mt-16  md:mt-32 mb-16 xl:mx-4  text-green-300 xl:text-6xl'  
+        style={{ color: "#4a4a4a", fontWeight: 900 }}>
+          <strong>
+        WHAT WE DO{" "}</strong>
       </h1>
 
       <div className='flex-row md:flex justify-center'>

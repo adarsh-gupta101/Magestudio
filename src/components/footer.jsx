@@ -60,6 +60,16 @@ function footer() {
             Hello@mages.studio
           </p>
         </a>
+        <a href='mailto:themages2020@gmail.com' className="mt-4">
+          {" "}
+          <p style={{color:"#B0b0b0"}} className="text-center  md:text-right text-2xl">Job & Internship Enquiries</p>
+          <p
+            className=' mt-4 text-lg text-center  md:text-right'
+            style={{ color: "#B0b0b0" }}>
+            {" "}
+            Jobs@mages.studio
+          </p>
+        </a>
         {/* <div className='hidden md:flex justify-center w-32 h-32 px-4 mt-4' style={{float:"left"}}>
           <a href='https://www.behance.net/Mages' className='w-64 h-64 mx-1'>
             <svg

@@ -9,7 +9,7 @@ function Testimonial() {
         <div className='mb-4 '>
           <svg
             fill='currentcolor'
-            className='m-auto  text-green-400 block w-3/5 md:w-1/5'
+            className='m-auto  text-blue-400 block w-3/5 md:w-1/5'
             height='100%'
             viewBox='0 0 235.78 36.16'
             xmlns='http://www.w3.org/2000/svg'>

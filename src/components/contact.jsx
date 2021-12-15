@@ -3,7 +3,7 @@ import "../App.css"
 
 function Contact() {
   return (
-    <div className='bg-gray-50 mb-12 ' id='new'>
+    <div className='bg-gray-50 mb-12 p-2 py-6 ' id='new'>
       <p
         style={{ fontWeight: 800, color: "#4a4a4a" }}
         className='text-2xl md:text-4xl  text-center mb-8 xl:text-5xl'>

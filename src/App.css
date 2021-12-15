@@ -58,3 +58,15 @@
   background-position: left bottom;
   color: white;
 }
+
+.logoclass{
+  filter: grayscale(100%);
+}
+.logoclass:hover{
+  filter:grayscale(0%);
+  color:red
+
+}
+.mailogo{
+  flex-wrap: wrap;
+}
